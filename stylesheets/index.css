@@ -1,0 +1,153 @@
+body{
+    font-family:'cooper';
+    font-size: 24px;
+    background: url(../images/2.jpg);
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+#sence{
+    width: 820px;
+    height: 630px;
+    /*box-shadow: 0 3px 8px black;*/
+    border-radius: 10px;
+    position: relative;
+    margin: 10px auto;
+
+}
+#overup{
+    height: 100%;
+    width: 100%;
+    background: url(../images/2.jpg);
+    background-size:cover;
+    /*position: relative;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:5555;
+}
+.poker{
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    background-size:cover;
+    box-shadow: 0 3px 8px rgba(30,87,114, 0.8);
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 888;
+    color: #ccc;
+    opacity: 0.8;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.remain-poker{
+    box-shadow: 0 0px 3px rgba(30,87,114, 0.5);
+    position:absoulte;
+    bottom:0;
+    left:0;
+}
+.button{
+    position:absolute;
+    left:360px;
+    width:80px;
+    height:24px;
+    border-radius:10px;
+    border: 1px solid #9A4141;
+    color:#8ABF1A;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+    /*display: none;*/
+}
+#move-to-right{
+    bottom:80px;
+}
+#move-to-left{
+    bottom:40px;
+}
+.set{
+    width:90px;
+    height:120px;
+    position:absolute;
+    bottom:0;
+}
+#left-set{
+    left:120px;
+}
+#right-set{
+    left:600px;
+}
+#jiemian{
+    width: 820px;
+    height: 630px;
+    border-radius: 20px;
+    /*box-shadow: 0 0 10px rgba(0,0,0, 0.5);*/
+    background: url(../images/poker.png) no-repeat 0px -200px;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+#guize{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    background: url(../images/guize.png) no-repeat ;
+    background-size: cover;
+    bottom: 50px;
+    left: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(130,83,146,0.8);
+}
+#start{
+    width: 200px;
+    height:150px;
+    border-radius: 20px;
+    background: url(../images/start.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+    opacity: 0.9;
+    z-index: 8888;
+    cursor: pointer;
+}
+#gameover{
+    width: 500px;
+    height: 300px;
+    background: url(../images/gover.png)no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -150px;
+    z-index: 6666;
+    display: none;
+
+}
+#again{
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    border: 2px solid black;
+    position:absolute;
+    bottom: 35px;
+    left: 124px;
+}
+#leave{
+    width: 101px;
+    height: 35px;
+    border-radius: 30px;
+    border: 2px solid black;
+    position:absolute;
+    bottom: 34px;
+    right: 103px;
+}
